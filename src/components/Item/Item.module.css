@@ -1,0 +1,45 @@
+
+.app {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.outerBox {
+    flex: 0 1 33%;
+    box-sizing: border-box;
+    padding: 20px;
+   
+   
+}
+
+.innerBox {
+    outline: 1px solid black;
+   
+}
+
+.thumbnail {
+    height: 230px;
+    width: 250px;
+    object-fit:contain;
+   
+    
+}
+
+.productImg {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+}
+
+.productTop {
+    padding-left: 100px;
+}
+
+.productRating {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

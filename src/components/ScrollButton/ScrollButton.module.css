@@ -1,0 +1,14 @@
+
+.buttonHouse {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.headerButton {
+   
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    
+}
